@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="item_divider">#EFEFEF</color>
+    <color name="transparent">#00000000</color>
+    <color name="yanse3">#95a6ab</color>
+    <color name="yanse2">#9398b5</color>
+    <color name="yanse1">#7d85b0</color>
 </resources>
