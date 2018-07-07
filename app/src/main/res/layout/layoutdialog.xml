@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialog_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/edit_room"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:text="课室:" />
+
+        <TextView
+            android:id="@+id/edit_roomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A101" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/edit_course"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="课程名" />
+
+        <EditText
+            android:id="@+id/edit_coursename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C语言" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
