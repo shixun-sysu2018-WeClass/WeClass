@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.weclass.AppDetActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="申请的详细信息"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="73dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="73dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="状态："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="课室："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/classroom"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="申请日期："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/book_date"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="预约日期："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/application_date"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="开始时间："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/begin"
+                    android:textSize="30dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="结束时间："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/end"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="说明："
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/statement"
+                    android:textSize="30sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取消预约"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/back_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
